@@ -1,0 +1,17 @@
+body {
+  padding: 8vw 16vw;
+}
+a {
+  color: $color__link;
+  &:hover {
+    color: $color__link-hover;
+  }
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  .col {
+    flex-basis: 50%;
+  }
+}
